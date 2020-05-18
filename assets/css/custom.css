@@ -1,0 +1,14 @@
+/* Add here all your CSS customizations */
+.card-sing-unisimon {
+
+	background-color:#108040;
+
+}
+
+.body-sign .card-sign .card-title-sign .title {
+    background-color: #47a447;
+}
+
+.body-sign .card-sign .card-body {
+    border-top-color: #47a447;
+}

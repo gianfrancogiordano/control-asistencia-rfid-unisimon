@@ -1,0 +1,40 @@
+[14-Sep-2019 09:22:17 America/Bogota] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'colombeia_system'@'localhost' (using password: YES) in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php on line 19
+[16-Sep-2019 12:55:43 America/Bogota] PHP Notice:  Undefined index: pwd in /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php on line 8
+[16-Sep-2019 12:55:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method Ilitia::hora() in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php:179
+Stack trace:
+#0 /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php(9): Mysql->getData('SELECT * FROM u...', true)
+#1 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(66): include('/home/qxgffrjqc...')
+#2 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(36): Nucleo->cargarModulo()
+#3 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(9): Nucleo->ver('')
+#4 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(13): Ilitia->__construct()
+#5 /home/qxgffrjqc1yn/public_html/ambrosia/conf.ilitia.php(123): include_once('/home/qxgffrjqc...')
+#6 /home/qxgffrjqc1yn/public_html/ambrosia/controlador.php(3): include('/home/qxgffrjqc...')
+#7 /home/qxgffrjqc1yn/public_html/ambrosia/index.php(2): include('/home/qxgffrjqc...')
+#8 {main}
+  thrown in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php on line 179
+[16-Sep-2019 12:57:09 America/Bogota] PHP Notice:  Undefined index: pwd in /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php on line 8
+[16-Sep-2019 12:57:09 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method Ilitia::hora() in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php:179
+Stack trace:
+#0 /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php(9): Mysql->getData('SELECT * FROM u...', true)
+#1 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(66): include('/home/qxgffrjqc...')
+#2 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(36): Nucleo->cargarModulo()
+#3 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(9): Nucleo->ver('')
+#4 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(13): Ilitia->__construct()
+#5 /home/qxgffrjqc1yn/public_html/ambrosia/conf.ilitia.php(123): include_once('/home/qxgffrjqc...')
+#6 /home/qxgffrjqc1yn/public_html/ambrosia/controlador.php(3): include('/home/qxgffrjqc...')
+#7 /home/qxgffrjqc1yn/public_html/ambrosia/index.php(2): include('/home/qxgffrjqc...')
+#8 {main}
+  thrown in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php on line 179
+[16-Sep-2019 12:58:47 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method Ilitia::hora() in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php:179
+Stack trace:
+#0 /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php(9): Mysql->getData('SELECT * FROM u...', true)
+#1 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(66): include('/home/qxgffrjqc...')
+#2 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/nucleo.php(36): Nucleo->cargarModulo()
+#3 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(9): Nucleo->ver('')
+#4 /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/_init.php(13): Ilitia->__construct()
+#5 /home/qxgffrjqc1yn/public_html/ambrosia/conf.ilitia.php(123): include_once('/home/qxgffrjqc...')
+#6 /home/qxgffrjqc1yn/public_html/ambrosia/controlador.php(3): include('/home/qxgffrjqc...')
+#7 /home/qxgffrjqc1yn/public_html/ambrosia/index.php(2): include('/home/qxgffrjqc...')
+#8 {main}
+  thrown in /home/qxgffrjqc1yn/public_html/ambrosia/ilitia/mysql.php on line 179
+[16-Sep-2019 13:48:18 America/Bogota] PHP Notice:  Undefined index: nombre in /home/qxgffrjqc1yn/public_html/ambrosia/modulos/servicios/ajax_login.php on line 18
